@@ -1,0 +1,6 @@
+h2 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--color-font-tertiary);
+}

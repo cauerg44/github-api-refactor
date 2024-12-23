@@ -3,6 +3,8 @@ import './App.css'
 import Home from './routes/Home'
 import HomePage from './routes/Home/HomePage'
 import SearchPage from './routes/Home/SearchPage'
+import GithubSearchCard from './components/GithubSearchCard'
+import NotFound from './routes/Home/NotFound'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
           <Route index element={<Navigate to="/home" />} />
           <Route path="home" element={<HomePage />} />
           <Route path="search" element={<SearchPage />} >
+            <Route path=":user" element={<GithubSearchCard />} />
+            <Route path="user/not-found" element={<NotFound />} />
           </Route>
         </Route>
       </Routes>

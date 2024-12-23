@@ -1,5 +1,6 @@
 import './styles.css'
 import GithubSearchCard from "../../../components/GithubSearchCard";
+import { Outlet } from 'react-router-dom';
 
 export default function SearchPage() {
 
@@ -9,6 +10,7 @@ export default function SearchPage() {
                 <section id="search-page-section" className="container-search-page">
                     <GithubSearchCard />
                 </section>
+                <Outlet />
             </main>
         </>
     )
