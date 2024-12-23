@@ -1,0 +1,8 @@
+.btn-primary {
+    background-color: var(--color-bg-primary);
+    width: 101px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: var(--color-font-primary);
+}

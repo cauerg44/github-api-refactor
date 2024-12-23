@@ -1,0 +1,14 @@
+.home-content-page {
+    margin: 27px 0;
+}
+
+.home-content-page h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home-content-page h6 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-font-secondary);
+}
