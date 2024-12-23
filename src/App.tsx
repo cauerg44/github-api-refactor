@@ -2,7 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './routes/Home'
 import HomePage from './routes/Home/HomePage'
-import SearchPage from './routes/SearchPage'
+import SearchPage from './routes/Home/SearchPage'
 
 function App() {
 

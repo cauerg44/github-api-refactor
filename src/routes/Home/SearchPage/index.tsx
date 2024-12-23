@@ -1,5 +1,5 @@
 import './styles.css'
-import GithubSearchCard from "../../components/GithubSearchCard";
+import GithubSearchCard from "../../../components/GithubSearchCard";
 
 export default function SearchPage() {
 
