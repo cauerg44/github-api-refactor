@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header>
-            <h1 className='container'>Github API</h1>
+            <h1 className='container-home-page'>Github API</h1>
         </header>
     )
 }

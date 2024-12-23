@@ -6,7 +6,7 @@ export default function HomePage() {
     return (
         <>
         <main>
-            <section id="home-page-section" className="container">
+            <section id="home-page-section" className="container-home-page">
                 <div className="home-content-page">
                     <h2>Desafio Github API</h2>
                     <h6>DevSuperior - Escola de programação</h6>
